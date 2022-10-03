@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "next lint && npm run prettier:check",
     "fmt": "npm run prettier:write",
