@@ -1,0 +1,43 @@
+{
+  "name": "ts-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "next lint && npm run prettier:check",
+    "fmt": "npm run prettier:write",
+    "dev": "next dev",
+    "prettier:write": "prettier --write ./**/*.{js,ts,tsx}",
+    "prettier:check": "prettier --check ./**/*.{js,ts,tsx}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vanilla-extract/next-plugin": "^2.1.1",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "install": "0.13.0",
+    "npm": "8.19.2",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.23",
+    "@types/react": "^18.0.21",
+    "@vanilla-extract/css": "^1.9.1",
+    "@vanilla-extract/css-utils": "^0.1.2",
+    "@vanilla-extract/dynamic": "^2.0.2",
+    "@vanilla-extract/recipes": "^0.2.5",
+    "@vanilla-extract/sprinkles": "^1.5.0",
+    "date-fns": "^2.29.3",
+    "gray-matter": "^4.0.3",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "the-new-css-reset": "^1.7.3"
+  }
+}
